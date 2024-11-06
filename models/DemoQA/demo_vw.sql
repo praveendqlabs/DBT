@@ -1,0 +1,5 @@
+with qa_vw as (
+SELECT CUSTOMER_ID, FIRST_NAME, LAST_NAME
+FROM DQLABS_QA.CUSTOMERAI.STG_CUSTOMER
+)
+select * from qa_vw
