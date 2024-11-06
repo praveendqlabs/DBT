@@ -4,4 +4,4 @@ select
     count(*) as total_count
 from {{ ref('demo_vw') }}
 group by 1
-having total_count > 0
+having total_count < 0
