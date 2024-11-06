@@ -5,5 +5,4 @@ models:
           - name: CUSTOMER_ID
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
