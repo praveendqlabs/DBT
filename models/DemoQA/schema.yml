@@ -5,7 +5,7 @@ models:
           - name: CUSTOMER_ID
             description: "The primary key for this table"
             tests:
-                - not_null,
+                - not_null
           - name: FIRSTNAME
             description: col_description
             tests:
